@@ -1,4 +1,6 @@
-### Sorting an Array Using Repeated Minimum Extraction
+# Sorting an Array Using Repeated Minimum Extraction
+
+problem-link: https://takeuforward.org/practice/dsa/selection-sort
 
 ## Intuition
 The idea is to repeatedly find the smallest element from the original array and place it into a new vector. 
