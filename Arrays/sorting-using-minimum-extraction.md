@@ -66,3 +66,6 @@ This approach sorts the array by repeatedly extracting its minimum element. It i
 
 ## Note: 
 This approach is logically correct, but it uses O(n) extra space. Traditional selection sort improves the space complexity to O(1) by swapping elements within the original array instead of creating another vector. Both have O(n^2) time complexity.
+
+## Remarks
+I realised that creating an additional vector was unnecessary because I could place the minimum element at its correct position by swapping it with the first unsorted element. This led me to understand the space optimisation in Selection Sort.
